@@ -1,0 +1,169 @@
+body{ 
+    color: rgb(255, 255, 255);
+    background-image: url();
+    background-size: 100%;
+    height:500vh;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 0.6fr 0.8fr 0.8fr 1fr 1fr 1fr;
+    background-color: rgb(93, 144, 185);
+    margin: 0px;
+}
+.rew{
+    width: 100%;
+}
+.rew header{
+    margin-top: 3%;
+    width: 100%;
+    height: 12%;
+    display: grid;
+    grid-template-columns: 5fr 1fr 1fr 1fr 5fr;
+    column-gap: 5%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    height: 45px;
+    width: 500px;
+    color: rgb(250, 248, 248);
+    margin-right: 50%;
+    padding-top: 30%;
+    border-radius: 20%;
+}
+#logo{
+    height: 100%;
+    width: 50%;
+}
+.wsd{
+    background-color: aliceblue;
+    color: rgb(54, 108, 155);
+    width: 100%;
+    height: 93%;
+    background-image: url("ng.jpg");
+    background-size: 100% 100%;
+}
+.info{
+    margin-top: 10%;
+    font-size:300%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+#info{
+    font-weight: 1000;
+}
+.info1{
+    text-align: left;
+}
+.info2{
+    text-align: left;
+}
+.conteiner{
+    width: 60%;
+    margin-left: 20%;
+    height:70vh ;
+    border:0px solid black ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.conteiner div{
+    height: 40%;
+    width: 26%;
+    border:3px solid black ;
+    border-radius: 50%;
+}
+.element img{
+   height: 37%;
+   width: 37%;
+}
+.element{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.element h2{
+    font-size: 50%;
+}
+.element p{
+    width: 60%;
+    font-size: 41%;
+    font-weight: 100%;
+}
+header{
+    border-radius: 4%;
+}
+.img{
+    margin-top: 8%;
+    margin-left: 3%;
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+}
+.img img{
+    height: 80%;
+    width: 100%;
+}
+.стрелка{
+    margin-top: 125%;
+    margin-left: 30%;
+    height: 15%;
+    width: 20%;
+}
+.you{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 200%;
+    font-weight: 500;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.you h2{
+    font-weight: 900;
+    font-size: 300%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+.footer{
+    background-image: url("pngwing.com\ \(11\).png");
+    height: 100%;
+    width: 100%;
+    background-size: 100% 100%;
+}
+.conteiner_prace{
+    width: 70%;
+    margin-left: 15%;
+    height:50vh ;
+    border:0px solid black ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.element_prace{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.element_prace img{
+    height: 37%;
+    width: 37%;
+}
+.conteiner_prace div{
+    height: 45%;
+    width: 30%;
+    border:0px solid black ;
+    border-radius: 22%;
+}
+.element_prace h2{
+    font-size:150%;
+}
+#prace{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:300% ;
+    font-weight: 1000;
+}
